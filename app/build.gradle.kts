@@ -3,6 +3,8 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
 }
 
+
+
 android {
     namespace = "com.example.flightcase"
     compileSdk = 34
@@ -66,5 +68,5 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation("net.skyscanner.backpack:backpack-android:43.0.0")
+    implementation("net.skyscanner.backpack:backpack-compose:43.0.0")
 }
